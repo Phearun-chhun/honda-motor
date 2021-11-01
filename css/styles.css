@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+*{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Arvo', serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5;
+    width: 100%;
+    margin: 0;
+    background: #32455A;
+    position: sticky;
+    top: 0;
+    z-index: 99999;       
+}
+/* logo */
+.logo{
+    padding: 0.5rem 0 0 1.3rem ;
+
+}
+/* navigation-bar */
+/* .navbar{
+  
+} */
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    margin: 0 1.5rem;
+}
+.navbar ul a{
+    padding: 12px;
+    color: #ffff;
+    line-height: 5rem;
+}
+/* .navbar ul a:hover{
+    color: #97A6B5;
+} */
+#active{
+    background: #E9A839;
+    border-radius: 15px;
+
+}
+/* icon */
+.header .icon{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    color: #32455A;
+    margin-right:5rem;
+    width: 200px;
+    height: 5vh;
+    margin-top: 3.5vh;
+    border-radius: 7px;
+    background: #ffff;
+}
+.icon .fa{
+    margin-left: 85%;
+    margin-top: 2.5%;
+}
+
+/* banner */
+.banner{
+    width: 90%;
+    margin-left: 5%;
+}
+.promote{
+    width: 100%;
+}
+hr{
+    margin-top: 3%;
+    border: 2px solid #b2b2b2   ;
+    background: #b2b2b2;
+}
+/* container */
+.width{
+    width: 90%;
+}
+.container
+{
+    width: 90%;
+    margin-left: 5%;
+}
+.container-1{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.box-container, 
+.box-container-2{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+.box-container .box{
+    padding: 3rem 2rem;
+    background: #ffff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem #32455A;
+}
+.box-container-2 .box{
+    padding: 3rem 2rem;
+    background: #ffff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem #32455A;
+}
+.box-container-2 {
+    padding: 2.5rem;
+    
+}
+.box-container .box:hover{
+    transform: scale(1.2);
+}
+.box-container-2 .box:hover{
+    
+    transform: scale(1.2);
+}
+.container .box-container .box p{ 
+    margin-top: 30%;
+}
+.more-model{
+    margin-top: 5%;
+}
+.btn {
+	cursor: pointer;
+	position: relative;
+    margin-left: 45%;
+	padding: 10px 15px;
+	border-radius: 1rem;
+	/* line-height: 1rem; */
+	font-size: 1rem;
+	font-weight: 1rem;
+    color:#ffff ;
+    background: #32455A;
+	border: 1px solid #32455A;
+}
+.btn:hover{
+    background: #E9A839;
+    color: #fff;
+    border-radius: 15px;
+}
+/* footer */
+footer{
+    background: #32455A;
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.group span{
+    padding: 5px;
+    font-size: 1rem;
+}
+.group .fa{
+    font-size: 1.5rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+/* vedio */
+iframe{
+    width: 90%;
+    height: 90vh;
+    margin-left: 2.5%;
+    padding: 1.5rem;
+}
+/* contact */
+.contact{
+     width: 90%;
+    margin-left: 5%;
+}
+/* form */
+
+.form-container{
+    box-sizing: border-box;
+    width: 25%;
+    height: 80vh;
+    margin: 10px;
+    margin-left: 37.2%;
+    padding: 10px;
+    background: #32455A;
+    border-radius: 7px;
+}
+input,
+textarea{
+    border: none;
+    background-color: hsl(0, 0%, 80%,0.2);
+    border-radius: 7px;
+}
+.form-group{
+    padding: 10px;    
+}
+.form-control{
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: none;
+    border-right: none;
+}
+.two-input{
+    display: flex;   
+}
+.ml{
+    margin-left: 10px;
+}
+.form-group .btn{
+    width: 70%;
+    margin-left: 15%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background:#E9A839;
+    font-size: 17px;
+    color: #fff;
+    cursor: pointer;
+}
+::placeholder{
+    color: #fff;
+}
+.no-resize{
+    resize: none;
+}
+.have-acc{
+    text-align: center;
+    color: #fff;
+}
+form a{
+    text-align: center;
+    color: #fff;
+}
+
+/* address */
+.address{
+    display: flex;
+    line-height: 1.7;
+}
+.address P{ 
+    padding: 20px;
+}
+.information{
+    width: 45%;
+}
+.map{
+    width: 90%;
+}
+/* new-event */
+
+.text-align{
+    text-align: left;
+    text-align-last: left;
+}
+.X-ADV{
+    width: 90%;
+    margin-left: 7%;
+    text-align: left;
+    text-align-last: left;
+}
